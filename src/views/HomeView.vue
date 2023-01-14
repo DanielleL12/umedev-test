@@ -3,6 +3,6 @@
 
 <template>
   <main>
-    HELLO WORLD!
+    <h1 class="text-3xl bg-red-400">HELLO WORLD!</h1>
   </main>
 </template>
