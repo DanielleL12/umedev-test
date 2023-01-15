@@ -1,0 +1,220 @@
+:root {
+    /* Brand colors */
+    --ud-source-primary: #56AB2F;
+    --ud-source-secondary: #054A29;
+    --ud-source-tertiary: #EEA243;
+    --ud-source-dark: #171219;
+    --ud-source-light: #f7f7f7;
+
+    /* Primary */
+    --ud-ref-palette-primary0: #000000;
+    --ud-ref-palette-primary5: #081004;
+    --ud-ref-palette-primary10: #102009;
+    --ud-ref-palette-primary15: #18300d;
+    --ud-ref-palette-primary20: #204012;
+    --ud-ref-palette-primary25: #285016;
+    --ud-ref-palette-primary30: #30601a;
+    --ud-ref-palette-primary35: #38701f;
+    --ud-ref-palette-primary40: #499027;
+    --ud-ref-palette-primary50: var(--ud-source-primary);
+    --ud-ref-palette-primary60: #6bca3f;
+    --ud-ref-palette-primary70: #84d35f;
+    --ud-ref-palette-primary80: #9cdc7f;
+    --ud-ref-palette-primary90: #b5e59f;
+    --ud-ref-palette-primary95: #c1e9af;
+    --ud-ref-palette-primary98: #daf2cf;
+    --ud-ref-palette-primary99: #f3fbef;
+    --ud-ref-palette-primary100: #ffffff;
+
+    /* Secondary */
+    --ud-ref-palette-secondary0: #000000;
+    --ud-ref-palette-secondary10: #01130a;
+    --ud-ref-palette-secondary20: #032615;
+    --ud-ref-palette-secondary25: #04391f;
+    --ud-ref-palette-secondary30: var(--ud-source-secondary);
+    --ud-ref-palette-secondary35: #075f34;
+    --ud-ref-palette-secondary40: #098649;
+
+    /* Tertiary */
+    --ud-ref-palette-tertiary0: #000000;
+    --ud-ref-palette-tertiary10: #2b1700;
+    --ud-ref-palette-tertiary20: #482900;
+    --ud-ref-palette-tertiary25: #573300;
+    --ud-ref-palette-tertiary30: #673d00;
+    --ud-ref-palette-tertiary35: #774800;
+    --ud-ref-palette-tertiary40: #875200;
+    --ud-ref-palette-tertiary50: #a96800;
+    --ud-ref-palette-tertiary60: var(--ud-source-tertiary);
+    --ud-ref-palette-tertiary70: #f1b46a;
+    --ud-ref-palette-tertiary80: #f3be7c;
+    --ud-ref-palette-tertiary90: #f6d0a2;
+    --ud-ref-palette-tertiary95: #f8dab4;
+    --ud-ref-palette-tertiary98: #fae3c7;
+    --ud-ref-palette-tertiary99: #fdf6ec;
+    --ud-ref-palette-tertiary100: #ffffff;
+
+    /* neutral */
+    --ud-ref-palette-neutral0: #000000;
+    --ud-ref-palette-neutral10: #1a1c18;
+    --ud-ref-palette-neutral20: #2f312d;
+    --ud-ref-palette-neutral25: #3a3c37;
+    --ud-ref-palette-neutral30: #464743;
+    --ud-ref-palette-neutral35: #51534e;
+    --ud-ref-palette-neutral40: #5d5f5a;
+    --ud-ref-palette-neutral50: #767872;
+    --ud-ref-palette-neutral60: #90918b;
+    --ud-ref-palette-neutral70: #abaca5;
+    --ud-ref-palette-neutral80: #c6c7c0;
+    --ud-ref-palette-neutral90: #e3e3dc;
+    --ud-ref-palette-neutral95: #f1f1ea;
+    --ud-ref-palette-neutral98: #fafaf3;
+    --ud-ref-palette-neutral99: #fdfdf6;
+    --ud-ref-palette-neutral100: #ffffff;
+    
+    /* neutral-variant */
+    --ud-ref-palette-neutral-variant0: #000000;
+    --ud-ref-palette-neutral-variant10: #181d15;
+    --ud-ref-palette-neutral-variant20: #2d3229;
+    --ud-ref-palette-neutral-variant25: #383d33;
+    --ud-ref-palette-neutral-variant30: #43483e;
+    --ud-ref-palette-neutral-variant35: #4f544a;
+    --ud-ref-palette-neutral-variant40: #5b6055;
+    --ud-ref-palette-neutral-variant50: #74796d;
+    --ud-ref-palette-neutral-variant60: #8d9286;
+    --ud-ref-palette-neutral-variant70: #a8ada0;
+    --ud-ref-palette-neutral-variant80: #c3c8bb;
+    --ud-ref-palette-neutral-variant90: #dfe4d7;
+    --ud-ref-palette-neutral-variant95: #eef3e5;
+    --ud-ref-palette-neutral-variant98: #f6fbed;
+    --ud-ref-palette-neutral-variant99: #f9fef0;
+    --ud-ref-palette-neutral-variant100: #ffffff;
+
+    /* error */
+    --ud-ref-palette-error0: #000000;
+    --ud-ref-palette-error10: #410002;
+    --ud-ref-palette-error20: #690005;
+    --ud-ref-palette-error25: #7e0007;
+    --ud-ref-palette-error30: #93000a;
+    --ud-ref-palette-error35: #a80710;
+    --ud-ref-palette-error40: #ba1a1a;
+    --ud-ref-palette-error50: #de3730;
+    --ud-ref-palette-error60: #ff5449;
+    --ud-ref-palette-error70: #ff897d;
+    --ud-ref-palette-error80: #ffb4ab;
+    --ud-ref-palette-error90: #ffdad6;
+    --ud-ref-palette-error95: #ffedea;
+    --ud-ref-palette-error98: #fff8f7;
+    --ud-ref-palette-error99: #fffbff;
+    --ud-ref-palette-error100: #ffffff;
+
+    /* ------ TYPOGRAPHY ------- */
+    /* display - large */
+    --ud-sys-typescale-display-large-font-family-name: "Quicksand", sans-serif;
+    --ud-sys-typescale-display-large-font-family-style: Regular;
+    --ud-sys-typescale-display-large-font-weight: 400px;
+    --ud-sys-typescale-display-large-font-size: 57px;
+    --ud-sys-typescale-display-large-line-height: 64px;
+    --ud-sys-typescale-display-large-letter-spacing: -0.25px;
+    /* display - medium */
+    --ud-sys-typescale-display-medium-font-family-name: "Quicksand", sans-serif;
+    --ud-sys-typescale-display-medium-font-family-style: Regular;
+    --ud-sys-typescale-display-medium-font-weight: 400px;
+    --ud-sys-typescale-display-medium-font-size: 45px;
+    --ud-sys-typescale-display-medium-line-height: 52px;
+    --ud-sys-typescale-display-medium-letter-spacing: 0px;
+    /* display - small */
+    --ud-sys-typescale-display-small-font-family-name: "Quicksand", sans-serif;
+    --ud-sys-typescale-display-small-font-family-style: Regular;
+    --ud-sys-typescale-display-small-font-weight: 400px;
+    --ud-sys-typescale-display-small-font-size: 36px;
+    --ud-sys-typescale-display-small-line-height: 44px;
+    --ud-sys-typescale-display-small-letter-spacing: 0px;
+
+    /* headline - large */
+    --ud-sys-typescale-headline-large-font-family-name: "Roboto Condensed", sans-serif;
+    --ud-sys-typescale-headline-large-font-family-style: Regular;
+    --ud-sys-typescale-headline-large-font-weight: 400px;
+    --ud-sys-typescale-headline-large-font-size: 32px;
+    --ud-sys-typescale-headline-large-line-height: 40px;
+    --ud-sys-typescale-headline-large-letter-spacing: 0px;
+    /* headline - medium */
+    --ud-sys-typescale-headline-medium-font-family-name: "Roboto Condensed", sans-serif;
+    --ud-sys-typescale-headline-medium-font-family-style: Regular;
+    --ud-sys-typescale-headline-medium-font-weight: 400px;
+    --ud-sys-typescale-headline-medium-font-size: 28px;
+    --ud-sys-typescale-headline-medium-line-height: 36px;
+    --ud-sys-typescale-headline-medium-letter-spacing: 0px;
+    /* headline - small */
+    --ud-sys-typescale-headline-small-font-family-name: "Roboto Condensed", sans-serif;
+    --ud-sys-typescale-headline-small-font-family-style: Regular;
+    --ud-sys-typescale-headline-small-font-weight: 400px;
+    --ud-sys-typescale-headline-small-font-size: 24px;
+    --ud-sys-typescale-headline-small-line-height: 32px;
+    --ud-sys-typescale-headline-small-letter-spacing: 0px;
+    
+    /* title - large */
+    --ud-sys-typescale-title-large-font-family-name: "Roboto Condensed", sans-serif;
+    --ud-sys-typescale-title-large-font-family-style: Regular;
+    --ud-sys-typescale-title-large-font-weight: 400px;
+    --ud-sys-typescale-title-large-font-size: 22px;
+    --ud-sys-typescale-title-large-line-height: 28px;
+    --ud-sys-typescale-title-large-letter-spacing: 0px;
+    /* title - medium */
+    --ud-sys-typescale-title-medium-font-family-name: "Roboto Condensed", sans-serif;
+    --ud-sys-typescale-title-medium-font-family-style: Medium;
+    --ud-sys-typescale-title-medium-font-weight: 500px;
+    --ud-sys-typescale-title-medium-font-size: 16px;
+    --ud-sys-typescale-title-medium-line-height: 24px;
+    --ud-sys-typescale-title-medium-letter-spacing: 0.15px;
+    /* title - small */
+    --ud-sys-typescale-title-small-font-family-name: "Roboto Condensed", sans-serif;
+    --ud-sys-typescale-title-small-font-family-style: Medium;
+    --ud-sys-typescale-title-small-font-weight: 500px;
+    --ud-sys-typescale-title-small-font-size: 14px;
+    --ud-sys-typescale-title-small-line-height: 20px;
+    --ud-sys-typescale-title-small-letter-spacing: 0.10px;
+    
+    /* body - large */
+    --ud-sys-typescale-body-large-font-family-name: "Raleway", sans-serif;
+    --ud-sys-typescale-body-large-font-family-style: Regular;
+    --ud-sys-typescale-body-large-font-weight: 400px;
+    --ud-sys-typescale-body-large-font-size: 16px;
+    --ud-sys-typescale-body-large-line-height: 24px;
+    --ud-sys-typescale-body-large-letter-spacing: 0.50px;
+    /* body - medium */
+    --ud-sys-typescale-body-medium-font-family-name: "Raleway", sans-serif;
+    --ud-sys-typescale-body-medium-font-family-style: Regular;
+    --ud-sys-typescale-body-medium-font-weight: 400px;
+    --ud-sys-typescale-body-medium-font-size: 14px;
+    --ud-sys-typescale-body-medium-line-height: 20px;
+    --ud-sys-typescale-body-medium-letter-spacing: 0.25px;
+    /* body - small */
+    --ud-sys-typescale-body-small-font-family-name: "Raleway", sans-serif;
+    --ud-sys-typescale-body-small-font-family-style: Regular;
+    --ud-sys-typescale-body-small-font-weight: 400px;
+    --ud-sys-typescale-body-small-font-size: 12px;
+    --ud-sys-typescale-body-small-line-height: 16px;
+    --ud-sys-typescale-body-small-letter-spacing: 0.40px;
+    
+    /* label - large */
+    --ud-sys-typescale-label-large-font-family-name: "Raleway", sans-serif;
+    --ud-sys-typescale-label-large-font-family-style: Medium;
+    --ud-sys-typescale-label-large-font-weight: 500px;
+    --ud-sys-typescale-label-large-font-size: 14px;
+    --ud-sys-typescale-label-large-line-height: 20px;
+    --ud-sys-typescale-label-large-letter-spacing: 0.10px;
+    /* label - medium */
+    --ud-sys-typescale-label-medium-font-family-name: "Raleway", sans-serif;
+    --ud-sys-typescale-label-medium-font-family-style: Medium;
+    --ud-sys-typescale-label-medium-font-weight: 500px;
+    --ud-sys-typescale-label-medium-font-size: 12px;
+    --ud-sys-typescale-label-medium-line-height: 16px;
+    --ud-sys-typescale-label-medium-letter-spacing: 0.50px;
+    /* label - small */
+    --ud-sys-typescale-label-small-font-family-name: "Raleway", sans-serif;
+    --ud-sys-typescale-label-small-font-family-style: Medium;
+    --ud-sys-typescale-label-small-font-weight: 500px;
+    --ud-sys-typescale-label-small-font-size: 11px;
+    --ud-sys-typescale-label-small-line-height: 16px;
+    --ud-sys-typescale-label-small-letter-spacing: 0.50px;
+}
